@@ -2,6 +2,8 @@ package window;
 
 import java.io.IOException;
 
+import javax.swing.SwingUtilities;
+
 import player.Player;
 import player.Trail;
 
@@ -15,7 +17,7 @@ public class Main {
 		
 		
 		// Load all the code in, and them 'invoke' the creation of the window "Later"
-		javax.swing.SwingUtilities.invokeLater(() -> {
+		SwingUtilities.invokeLater(() -> {
 
 			try {
 
